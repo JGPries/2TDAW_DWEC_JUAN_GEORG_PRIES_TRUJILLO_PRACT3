@@ -1,0 +1,83 @@
+/* Estilo del fondo de la web */
+html{
+    background-image: url(https://www.realskateboards.com/img/2021/real-fall21-jawbreaker-7.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+/* gal=galeria */
+
+.gal{
+    width:20%;
+    margin-left: 5%;
+    text-align: center;
+    margin-bottom: 5%;
+    display: inline-block;
+}
+
+.gal img {
+  border: 3px solid #ffffff94;
+  border-radius: 4px;
+  padding: 5px;
+  width: 85%;
+  margin-top: 10px;
+}
+
+.gal img:hover {
+  box-shadow: 0 0 4px 4px #be000080;
+}
+
+/* Para que solo se muestren las fotos de los productos */
+.vacio{
+  display: none;
+}
+
+/* Para que muestre los datos del producto al pinchar encima */
+
+.mostrar div{
+  background-color: rgb(255, 97, 97);
+  width: 40%;
+  margin-top: 10%;
+  position: fixed;
+  font-size: 28px;
+  height: 600px;
+  margin-left: 35%;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.877);
+  padding: 5px;
+}
+
+.mostrar div img{
+  width: 40%;
+  border: 3px solid #ffffff94;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.mostrar{
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  right: 0;
+  background-color: rgba(253, 169, 59, 0.623);
+  position: fixed;
+  
+}
+
+/* ajustes del boton de salir de la ficha producto */
+.salir{
+  padding: 10px;
+  margin: 20px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
+
+/* ajustes de los botones de las categorias */
+.botones{
+  padding: 15px;
+  margin: 20px;
+  background-color: black;
+  color: rgb(255, 255, 255);
+}
